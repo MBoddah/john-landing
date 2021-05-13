@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'icons';
+    font-display: swap;
+    src:  url('../../fonts/icons.woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="__icon-"]::before, 
+[class*=" __icon-"]::before {
+    font-family: "icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+}
+
+.__icon-fb:before {
+content: "\e900";
+}
+.__icon-twitter:before {
+content: "\e901";
+}
+.__icon-insta:before {
+content: "\e902";
+}
+.__icon-linkedin:before {
+content: "\e903";
+}
